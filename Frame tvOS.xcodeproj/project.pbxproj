@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A562C66B2DF6A90C009F7D0A /* Auth0 in Frameworks */ = {isa = PBXBuildFile; productRef = A562C66A2DF6A90C009F7D0A /* Auth0 */; };
+		A5A353B82DF404DA00B993D6 /* FrameKit in Frameworks */ = {isa = PBXBuildFile; productRef = A5A353B72DF404DA00B993D6 /* FrameKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A59BE1162DF3846000777396 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A59BE0FC2DF3845F00777396 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A59BE1032DF3845F00777396;
+			remoteInfo = "Frame tvOS";
+		};
+		A59BE1202DF3846000777396 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A59BE0FC2DF3845F00777396 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A59BE1032DF3845F00777396;
+			remoteInfo = "Frame tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A59BE1042DF3845F00777396 /* Frame tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Frame tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A59BE1152DF3846000777396 /* Frame tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Frame tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A59BE11F2DF3846000777396 /* Frame tvOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Frame tvOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A59BE1272DF3846000777396 /* Exceptions for "Frame tvOS" folder in "Frame tvOS" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A59BE1032DF3845F00777396 /* Frame tvOS */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A59BE1062DF3845F00777396 /* Frame tvOS */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A59BE1272DF3846000777396 /* Exceptions for "Frame tvOS" folder in "Frame tvOS" target */,
+			);
+			path = "Frame tvOS";
+			sourceTree = "<group>";
+		};
+		A59BE1182DF3846000777396 /* Frame tvOSTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Frame tvOSTests";
+			sourceTree = "<group>";
+		};
+		A59BE1222DF3846000777396 /* Frame tvOSUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Frame tvOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A59BE1012DF3845F00777396 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5A353B82DF404DA00B993D6 /* FrameKit in Frameworks */,
+				A562C66B2DF6A90C009F7D0A /* Auth0 in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A59BE1122DF3846000777396 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A59BE11C2DF3846000777396 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A59BE0FB2DF3845F00777396 = {
+			isa = PBXGroup;
+			children = (
+				A59BE1062DF3845F00777396 /* Frame tvOS */,
+				A59BE1182DF3846000777396 /* Frame tvOSTests */,
+				A59BE1222DF3846000777396 /* Frame tvOSUITests */,
+				A59BE1052DF3845F00777396 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A59BE1052DF3845F00777396 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A59BE1042DF3845F00777396 /* Frame tvOS.app */,
+				A59BE1152DF3846000777396 /* Frame tvOSTests.xctest */,
+				A59BE11F2DF3846000777396 /* Frame tvOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A59BE1032DF3845F00777396 /* Frame tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A59BE1282DF3846000777396 /* Build configuration list for PBXNativeTarget "Frame tvOS" */;
+			buildPhases = (
+				A59BE1002DF3845F00777396 /* Sources */,
+				A59BE1012DF3845F00777396 /* Frameworks */,
+				A59BE1022DF3845F00777396 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A59BE1062DF3845F00777396 /* Frame tvOS */,
+			);
+			name = "Frame tvOS";
+			packageProductDependencies = (
+				A5A353B72DF404DA00B993D6 /* FrameKit */,
+				A562C66A2DF6A90C009F7D0A /* Auth0 */,
+			);
+			productName = "Frame tvOS";
+			productReference = A59BE1042DF3845F00777396 /* Frame tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A59BE1142DF3846000777396 /* Frame tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A59BE12D2DF3846000777396 /* Build configuration list for PBXNativeTarget "Frame tvOSTests" */;
+			buildPhases = (
+				A59BE1112DF3846000777396 /* Sources */,
+				A59BE1122DF3846000777396 /* Frameworks */,
+				A59BE1132DF3846000777396 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A59BE1172DF3846000777396 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A59BE1182DF3846000777396 /* Frame tvOSTests */,
+			);
+			name = "Frame tvOSTests";
+			packageProductDependencies = (
+			);
+			productName = "Frame tvOSTests";
+			productReference = A59BE1152DF3846000777396 /* Frame tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A59BE11E2DF3846000777396 /* Frame tvOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A59BE1302DF3846000777396 /* Build configuration list for PBXNativeTarget "Frame tvOSUITests" */;
+			buildPhases = (
+				A59BE11B2DF3846000777396 /* Sources */,
+				A59BE11C2DF3846000777396 /* Frameworks */,
+				A59BE11D2DF3846000777396 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A59BE1212DF3846000777396 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A59BE1222DF3846000777396 /* Frame tvOSUITests */,
+			);
+			name = "Frame tvOSUITests";
+			packageProductDependencies = (
+			);
+			productName = "Frame tvOSUITests";
+			productReference = A59BE11F2DF3846000777396 /* Frame tvOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A59BE0FC2DF3845F00777396 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					A59BE1032DF3845F00777396 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					A59BE1142DF3846000777396 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = A59BE1032DF3845F00777396;
+					};
+					A59BE11E2DF3846000777396 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = A59BE1032DF3845F00777396;
+					};
+				};
+			};
+			buildConfigurationList = A59BE0FF2DF3845F00777396 /* Build configuration list for PBXProject "Frame tvOS" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A59BE0FB2DF3845F00777396;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A59BE1332DF402E800777396 /* XCRemoteSwiftPackageReference "FrameKit" */,
+				A5A353CA2DF6A5B000B993D6 /* XCRemoteSwiftPackageReference "Auth0" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A59BE1052DF3845F00777396 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A59BE1032DF3845F00777396 /* Frame tvOS */,
+				A59BE1142DF3846000777396 /* Frame tvOSTests */,
+				A59BE11E2DF3846000777396 /* Frame tvOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A59BE1022DF3845F00777396 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A59BE1132DF3846000777396 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A59BE11D2DF3846000777396 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A59BE1002DF3845F00777396 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A59BE1112DF3846000777396 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A59BE11B2DF3846000777396 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A59BE1172DF3846000777396 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A59BE1032DF3845F00777396 /* Frame tvOS */;
+			targetProxy = A59BE1162DF3846000777396 /* PBXContainerItemProxy */;
+		};
+		A59BE1212DF3846000777396 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A59BE1032DF3845F00777396 /* Frame tvOS */;
+			targetProxy = A59BE1202DF3846000777396 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A59BE1292DF3846000777396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PWKFW58Y5R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Frame tvOS/Info.plist";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nsrcompute.Frame-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		A59BE12A2DF3846000777396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PWKFW58Y5R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Frame tvOS/Info.plist";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nsrcompute.Frame-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		A59BE12B2DF3846000777396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = PWKFW58Y5R;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 18.5;
+			};
+			name = Debug;
+		};
+		A59BE12C2DF3846000777396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = PWKFW58Y5R;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				TVOS_DEPLOYMENT_TARGET = 18.5;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A59BE12E2DF3846000777396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PWKFW58Y5R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nsrcompute.Frame-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Frame tvOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Frame tvOS";
+				TVOS_DEPLOYMENT_TARGET = 18.5;
+			};
+			name = Debug;
+		};
+		A59BE12F2DF3846000777396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PWKFW58Y5R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nsrcompute.Frame-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Frame tvOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Frame tvOS";
+				TVOS_DEPLOYMENT_TARGET = 18.5;
+			};
+			name = Release;
+		};
+		A59BE1312DF3846000777396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PWKFW58Y5R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nsrcompute.Frame-tvOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "Frame tvOS";
+			};
+			name = Debug;
+		};
+		A59BE1322DF3846000777396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PWKFW58Y5R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nsrcompute.Frame-tvOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "Frame tvOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A59BE0FF2DF3845F00777396 /* Build configuration list for PBXProject "Frame tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A59BE12B2DF3846000777396 /* Debug */,
+				A59BE12C2DF3846000777396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A59BE1282DF3846000777396 /* Build configuration list for PBXNativeTarget "Frame tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A59BE1292DF3846000777396 /* Debug */,
+				A59BE12A2DF3846000777396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A59BE12D2DF3846000777396 /* Build configuration list for PBXNativeTarget "Frame tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A59BE12E2DF3846000777396 /* Debug */,
+				A59BE12F2DF3846000777396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A59BE1302DF3846000777396 /* Build configuration list for PBXNativeTarget "Frame tvOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A59BE1312DF3846000777396 /* Debug */,
+				A59BE1322DF3846000777396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A59BE1332DF402E800777396 /* XCRemoteSwiftPackageReference "FrameKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nsr-compute/FrameKit.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		A5A353CA2DF6A5B000B993D6 /* XCRemoteSwiftPackageReference "Auth0" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/auth0/Auth0.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.13.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A562C66A2DF6A90C009F7D0A /* Auth0 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A5A353CA2DF6A5B000B993D6 /* XCRemoteSwiftPackageReference "Auth0" */;
+			productName = Auth0;
+		};
+		A5A353B72DF404DA00B993D6 /* FrameKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FrameKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A59BE0FC2DF3845F00777396 /* Project object */;
+}
